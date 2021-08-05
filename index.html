@@ -18,74 +18,56 @@
 <body>
     <!--header-->
     <header class="header">
-        <section class="top_header">
-            <a id="logo"><img src="images/logo/logo_reservia.png" alt="logo Reservia" /></a>
+        <section class="header-nav">
+            <a id="header-nav__logo"><img src="images/logo/logo_reservia.png" alt="logo Reservia" /></a>
             <!--------------navigation bar-------------->
-            <div class="navbar">
-                <ul class="navbar-list">
+                <ul class="header-nav-list">
                     <li class="hosting-link"><span><a class="hosting-link" href="#hosting">Hébergements</a></span></li>
                     <li class="activity-link"><span><a class="activity-link" href="#activity">Activités</a></span></li>
-                <li class="subscrip-link"><span><a class="subscrip-link" href="#">S'inscrire</a></span></li>
+                    <li class="subscrip-link"><span><a class="subscrip-link" href="#">S'inscrire</a></span></li>
                 </ul>
-            </div>
         </section>
     <!--------------Title-------------->
-        <div class="main_title">
-            <h1 class="main_h1">Trouvez votre hébergement pour des vacances de rêve</h1>
-            <p class="main_p">En plein centre ville ou en pleine nature</p>
+        <div class="main-title">
+            <h1 class="main-title__h1">Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p class="main-title__p">En plein centre ville ou en pleine nature</p>
         </div>
     <!--------------research box-------------->
-        <section class="research_box">
-            <div class="box">
-                <span class="icon-location-dot"><i class="fas fa-map-marker-alt"></i></span>
-                <input type="search" placeholder="Marseille, France" class="research-box">
-                <button class="button-research" id="button-research">Rechercher</button>
-            </div>    
-        </section>
+        <section class="container-research-box">
+            <div class="research-box">
+                <span class="research-box__icon-location-dot"><i class="fas fa-map-marker-alt"></i></span>
+                <input type="search" placeholder="Marseille, France" class="research-box__search">
+                <button class="research-box__button-research" id="button-research">Rechercher</button>
+            </div>   
+        </section> 
     </header>
     <section class="main">
         <!--------------filter section-------------->
-            <fieldset class="filter-container">
-                <h2 class="filter_title">Filtres</h2>
-                <div class="all_filter">
+                <div class="filter-container">
+                    <h2 class="filter-container__title">Filtres</h2>
+                    <div class="filter-container__filter">
                 <!--economic filter-->
-                    <div class="economic">
-                        <form class="filter-item-economic" method="post" action="#">
-                            <span class="filter-icon-economic"><i class="fas fa-money-bill-wave"></i></span>
-                            <input type="text" name="Economique" value="Economique" class="economique_item" disabled="disabled" />
-                        </form>
-                    </div>
-                
+                        <button class="filter" method="post" action="#">
+                            <span class="filter__icon"><i class="fas fa-money-bill-wave"></i></span><p>Economique</p>
+                        </button>             
                     <!--family section-->
-                    <div class="family">
-                        <form class="filter-item-family" method="post" action="#">
-                        <span class="filter-icon-family"><i class="fas fa-child"></i></span>
-                        <input type="text" name="Famille" value="Familial" class="family_item" disabled="disabled" />
-                        </form>
-                    </div>
-
+                        <button class="filter" method="post" action="#">
+                            <span class="filter__icon--family"><i class="fas fa-child"></i></span><p>Familial</p>
+                        </button>                   
                 <!--romantic section-->
-                    <div class="romantic">
-                        <form class="filter-item-romantic" method="post" action="#">
-                        <span class="filter-icon-romantic"><i class="fas fa-heart"></i></span>
-                        <input type="text" name="romantics" value="Romantique" class="romantic_item" disabled="disabled" />
-                        </form>
-                    </div>
-
+                        <button class="filter" method="post" action="#">
+                            <span class="filter__icon"><i class="fas fa-heart"></i></span><p>Romantique</p>                            
+                        </button> 
                 <!--animals section-->
-                    <div class="animals">
-                        <form class="filter-item-animals" method="post" action="#">
-                        <span class="filter-icon-animals"><i class="fas fa-dog"></i></span>
-                        <input type="text" name="animals" value="Animaux autorisés" class="animals_item" disabled="disabled" />
-                        </form>
+                        <button class="filter" method="post" action="#">
+                            <span class="filter__icon"><i class="fas fa-dog"></i></span><p>Animaux autorisés</p>                           
+                        </button> 
                     </div>
                 </div>
-            </fieldset>
         <!--------------information-------------->
-            <div class="container_info">
-                <div class="info">
-                    <span class="icone"><i class="fas fa-info"></i></span>
-                    <p class="p_info">Plus de 500 logements sont disponibles dans cette ville</p>
+            <div class="info">
+                    <span class="info__icon"><i class="fas fa-info"></i></span>
+                    <p class="info__p">Plus de 500 logements sont disponibles dans cette ville</p>
                 </div>
             </div>      
         <!--------------hosting section-------------->
@@ -222,7 +204,7 @@
                         <div class="container_img">
                             <img class="hôtel_chez_Amina_pictures"
                                 src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
-                                alt="picture_hôtel_ chez_Amina" style="background-image">
+                                alt="picture_hôtel_ chez_Amina">
                         </div>
                         <div class="text_img">
                             <div class="host">
