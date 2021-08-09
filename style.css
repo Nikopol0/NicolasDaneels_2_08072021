@@ -19,7 +19,6 @@ body p, h1{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: black 1px solid;
 }
 .header-nav a{
     text-decoration: none;
@@ -37,13 +36,11 @@ body p, h1{
     list-style-type: none;
     justify-content: space-between;
     align-items: center;
-    border: black 1px solid;
 }
 #header-nav__logo{
     width: 60%;
     display: flex;
     align-items: center;
-    border: black 1px solid;
 }
 .hosting-link
 {
@@ -56,7 +53,6 @@ body p, h1{
 /****************main_title****************/
 
 .main-title{
-    border: black 1px solid;
     width: 95%;
     display: flex;
     flex-direction: column;
@@ -74,7 +70,6 @@ body p, h1{
 .container-research-box{
     margin-top: 10px;
     width: 95%;
-    border: black 1px solid;
 }
 .research-box
 {
@@ -104,7 +99,6 @@ body p, h1{
     flex-direction: row;
     flex-wrap: wrap;
     width: 95%;
-    border: black 1px solid;
 }
 .filter-container__filter{
     margin-left: 20px;
@@ -155,7 +149,6 @@ body p, h1{
 /********************information********************/
 
 .info{
-    border:1px solid black;
     display: flex;
     flex-direction: row;
     width: 95%;
@@ -182,7 +175,6 @@ body p, h1{
 /********************hosting section********************/
 
 .main{
-    border: black 1px solid;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -226,6 +218,7 @@ body p, h1{
     margin-left: 1px;
     margin-top: 20px;
     padding: 3px;
+    box-shadow: -4px 5px 20px 0px grey;
 }
 .hosting-item__image-container{
    width: 100%;
@@ -300,6 +293,7 @@ body p, h1{
     margin-top: 20px;
     margin-bottom: 20PX;
     padding: 3px;
+    box-shadow: -4px 5px 20px 0px grey;
 }
 .hosting-item__image-container--row{
     width: 33%;
@@ -359,130 +353,124 @@ body p, h1{
 }
  
 /*************activity*************/
-.activity_section
-{
-    padding: 0;
-    border:black 1px solid;
-    display: flex;
-    flex-direction: column;
+.activity{
     width: 95%;
-    height: 600px;
+    margin-top: 40px;
+    margin-right: 0;
 }
-.activity
-{
-    border:black 1px solid;
+.container-activity a{
+    text-decoration: none;
+    color: black;
+}
+.container-activity{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container-activity--column{
+    width: 22%;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    height: 500px;
+    justify-content: space-between;
 }
-#activity 
-{
-    margin: 0;
-    padding: 0;
+.activity-vieux-port{
+    width: 22%;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: -3px 3px 10px 0px grey;
+}
+.vieux_port_picture{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 25px 25px 0px 0px;
+}
+.activity-fort-de-pomegues{
+    width: 100%;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: -3px 3px 10px 0px grey;
+}
+.fort-de-pomegues-picture{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 25px 25px 0px 0px;
+}
+.activity-îles-de-frioul{
+    width: 100%;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: -3px 3px 10px 0px grey;
+}
+.îles-de-frioul-picture{
     width: 100%;
     height: 100px;
-}
-.container_vieux_port_activity
-{
-    border:red 1px solid;
-    width: 45%;
-    height: 450px;
-    margin: 0;
-    border-radius: 10px 10px 0px 0px;
-    box-shadow: grey 5px 5px 5px ;
-}
-.container_img_vieux_port
-{
-    border:black 1px solid;
-    width: 100%;
-    border-radius: 10px 10px 0px 0px;
-    height: 100%;
-    margin: 0;
-}
-.vieux_port_picture
-{
-    width: 100%;
-    height: 100%;
-    border-radius: 10px 10px 0px 0px;
     object-fit: cover;
+    border-radius: 25px 25px 0px 0px;
 }
-.text_img
-{
-    
-    display: flex;
-   align-items: flex-start;
+.activity-parc-national-de-la-calanques{
+    width: 22%;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: -3px 3px 10px 0px grey;
+}
+.parc-national-de-la-calanques-picture{
     width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 25px 25px 0px 0px;
 }
-
+.activity-notre-dame-de-la-garde{
+    width: 100%;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: -3px 3px 10px 0px grey;
+}
+.notre-dame-de-la-garde-picture{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 25px 25px 0px 0px;
+}
+.activity-parc-longchamp{
+    width: 100%;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: -3px 3px 10px 0px grey;
+}
+.parc-longchamp-picture{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 25px 25px 0px 0px;
+}
+.activity-text{
+    margin-left: 20px;
+}
 
 /********************footer********************/
 .footer
 {
+    display: flex;
+    align-items: center;
+    border: black 1px solid;
+    margin-top: 40px;
+}
+.container-list-footer{
     background-color: #F2F2F2;
     border-radius: 10px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    margin: 0;
-    width: 100%;
-    height: auto;
+    justify-content: space-around;
+    width: 95%;
+    border: black 1px solid;
 }
-.footer h2
-{
-    font-size: medium;
-    margin: 0;
+.container-list-footer a{
+    text-decoration: none;
 }
-
-.assistance-list
-{
-    list-style-type: none; 
-    font-size: small;
-    padding: 0;
-    margin: 0;
-}
-.about-list
-{
-    list-style-type: none; 
-    font-size: small;
-    padding: 0;
-    margin: 0;
-}
-.hosting-list
-{
-    list-style-type: none; 
-    font-size: small;
-    padding: 0;
-    margin: 0;
-}
-.about-list-element
-{
+.about-list-element{
     display: flex;
     flex-direction: column;
-    padding: 0;
-    margin-right:120px;
+    justify-content: space-between;
+    padding-left: 0;
 }
-.hosting-list-element
-{
-    display: flex;
-    flex-direction: column;
-    padding:  0;
-    margin: 0;
-}
-.assistance-list-element
-{
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    margin: 0;
-}
-.list
-{
-    margin: 0;
-}
-.footer a:hover
-{
-    color: #0065FC;
+.about-list{
+    padding-left: 0;
 }
 @media screen and (max-width: 600px) 
 {
