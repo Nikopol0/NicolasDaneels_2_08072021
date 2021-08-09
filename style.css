@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 body{
     font-family:"Raleway", Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 body p, h1{
     color: black;
@@ -99,6 +101,8 @@ body p, h1{
     flex-direction: row;
     flex-wrap: wrap;
     width: 95%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .filter-container__filter{
     margin-left: 20px;
@@ -107,11 +111,11 @@ body p, h1{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    width: 60%;
-    
+    width: 60%; 
 }
 .filter-container__title{
     border: none;
+    font-size: medium;
 }
 .filter{
     display: flex;
@@ -164,13 +168,14 @@ body p, h1{
     border:1px solid #DEEBFF;
     font-size: x-small;
     color: #0065FC;
-    border-radius: 25px;
-    padding: 1px 7px 1px 7px;
+    border-radius: 50%;
+    padding: 2px 6px 2px 6px;
     margin-right: 10px;
 }
-@media screen and (max-width: 600px)
-{
-
+@media (max-width: 420px) {
+    .footer {
+      flex-direction: column;
+    }
 }
 /********************hosting section********************/
 
@@ -218,7 +223,7 @@ body p, h1{
     margin-left: 1px;
     margin-top: 20px;
     padding: 3px;
-    box-shadow: -4px 5px 20px 0px grey;
+    box-shadow: -4px 5px 20px 0px  #8080804d;
 }
 .hosting-item__image-container{
    width: 100%;
@@ -293,7 +298,7 @@ body p, h1{
     margin-top: 20px;
     margin-bottom: 20PX;
     padding: 3px;
-    box-shadow: -4px 5px 20px 0px grey;
+    box-shadow: -4px 5px 20px 0px  #8080804d;
 }
 .hosting-item__image-container--row{
     width: 33%;
@@ -333,7 +338,7 @@ body p, h1{
     margin-top: 8px;
 }
 .hosting-item__stars--row{
-    width: 27%;
+    width: 25%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -357,6 +362,10 @@ body p, h1{
     width: 95%;
     margin-top: 40px;
     margin-right: 0;
+    margin: auto auto;
+}
+.activity p{
+    font-weight: bold;
 }
 .container-activity a{
     text-decoration: none;
@@ -376,7 +385,7 @@ body p, h1{
 .activity-vieux-port{
     width: 22%;
     border-radius: 25px 25px 25px 25px;
-    box-shadow: -3px 3px 10px 0px grey;
+    box-shadow: -3px 3px 10px 0px  #8080804d;
 }
 .vieux_port_picture{
     width: 100%;
@@ -387,7 +396,7 @@ body p, h1{
 .activity-fort-de-pomegues{
     width: 100%;
     border-radius: 25px 25px 25px 25px;
-    box-shadow: -3px 3px 10px 0px grey;
+    box-shadow: -3px 3px 10px 0px  #8080804d;
 }
 .fort-de-pomegues-picture{
     width: 100%;
@@ -398,7 +407,7 @@ body p, h1{
 .activity-îles-de-frioul{
     width: 100%;
     border-radius: 25px 25px 25px 25px;
-    box-shadow: -3px 3px 10px 0px grey;
+    box-shadow: -3px 3px 10px 0px  #8080804d;
 }
 .îles-de-frioul-picture{
     width: 100%;
@@ -409,7 +418,7 @@ body p, h1{
 .activity-parc-national-de-la-calanques{
     width: 22%;
     border-radius: 25px 25px 25px 25px;
-    box-shadow: -3px 3px 10px 0px grey;
+    box-shadow: -3px 3px 10px 0px  #8080804d;
 }
 .parc-national-de-la-calanques-picture{
     width: 100%;
@@ -420,7 +429,7 @@ body p, h1{
 .activity-notre-dame-de-la-garde{
     width: 100%;
     border-radius: 25px 25px 25px 25px;
-    box-shadow: -3px 3px 10px 0px grey;
+    box-shadow: -3px 3px 10px 0px  #8080804d;
 }
 .notre-dame-de-la-garde-picture{
     width: 100%;
@@ -431,7 +440,7 @@ body p, h1{
 .activity-parc-longchamp{
     width: 100%;
     border-radius: 25px 25px 25px 25px;
-    box-shadow: -3px 3px 10px 0px grey;
+    box-shadow: -3px 3px 10px 0px  #8080804d;
 }
 .parc-longchamp-picture{
     width: 100%;
@@ -447,30 +456,35 @@ body p, h1{
 .footer
 {
     display: flex;
-    align-items: center;
-    border: black 1px solid;
-    margin-top: 40px;
-}
-.container-list-footer{
     background-color: #F2F2F2;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 95%;
-    border: black 1px solid;
+    margin-top: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+    flex-wrap: wrap;
+    width: 100%;
 }
-.container-list-footer a{
-    text-decoration: none;
-}
-.about-list-element{
+.footer-item-container{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    padding-left: 0;
+    flex-grow: 1;
 }
-.about-list{
+.footer-item-container{
+    margin-top: 20px;
+}
+.footer-list-container{
     padding-left: 0;
+    margin-top: 0;
+    list-style: none;
+}
+.footer-list-item{
+    height: 30px;
+}
+.footer-list-item a {
+    color: #666;
+    text-decoration: none;
+}
+.footer-list-item a:hover {
+    text-decoration: underline;
 }
 @media screen and (max-width: 600px) 
 {
