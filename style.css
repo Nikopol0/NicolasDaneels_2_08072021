@@ -52,6 +52,28 @@ body p, h1{
 {
     color:#0065FC;
 }
+@media only screen and (max-width: 600px) 
+{
+    .header-nav{
+        width: 95%;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .header-nav-list{
+        width:100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #header-nav__logo{
+        width: 100%;
+        position: absolute;
+    }
+}
 /****************main_title****************/
 
 .main-title{
@@ -67,6 +89,14 @@ body p, h1{
     margin-top: 0;
     font-size: small;
 }
+@media only screen and (max-width: 600px){
+    .main-title{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    }
+}
 /****************main_title****************/
 
 .container-research-box{
@@ -79,10 +109,10 @@ body p, h1{
     flex-direction: row;
 }
 .research-box__icon-location-dot{
-    padding: 10px 10px 10px 10px;
+    padding: 10px 15px 10px 10px;
     background-color: #F2F2F2;
     border: #F2F2F2 1px solid;
-    border-radius: 25px 0px 0px 25px;
+    border-radius: 10px 0px 0px 10px;
 }
 .research-box__search{
     border: none;
@@ -91,8 +121,15 @@ body p, h1{
 .research-box__button-research{
     color: white;
     border: none;
-    border-radius: 0px 25px 25px 0px;
+    border-radius: 0px 10px 10px 0px;
     background-color: #0065FC;
+    width: auto;
+}
+@media only screen and (max-width: 600px)
+{
+    .research-box {
+        margin-left: 20px;
+    }
 }
 /****************filter****************/
 
@@ -150,6 +187,34 @@ body p, h1{
     border: none;
     background-color: white;
 }
+@media only screen and (max-width: 900px) 
+{
+    .filter-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 95%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .filter-familial{
+        display: flex;
+        align-items: flex-start;
+        
+    }
+    .filter-container__filter{
+        margin-left: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        width: 60%; 
+    }
+    .filter-container__title {
+        margin-left: 24px;
+    }
+}
 /********************information********************/
 
 .info{
@@ -172,9 +237,12 @@ body p, h1{
     padding: 2px 6px 2px 6px;
     margin-right: 10px;
 }
-@media (max-width: 420px) {
-    .footer {
-      flex-direction: column;
+@media (max-width: 600px) {
+    .info{
+        margin-left: 30px;
+    }
+    .info__icon{
+        padding: 8px 13px 5px 12px;
     }
 }
 /********************hosting section********************/
@@ -199,7 +267,7 @@ body p, h1{
     background-color: #F2F2F2;
     width: 65%;
 }
-.hosting-marseille-container__title{
+#hosting-marseille-container__title{
     font-size: large;
     font-weight: bold;
     margin-left: 20px;
@@ -348,13 +416,39 @@ body p, h1{
     padding-left: 10px;
     margin-bottom: 10px;
 }
-@media only screen and (max-width: 992px)
-{
- 
-}
 @media only screen and (max-width: 600px) 
 {
-
+    .main{
+        margin: auto auto;
+    }
+    .hosting{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        width: 95%;
+    }
+    .p_hosting {
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+    .hosting-marseille-container{
+        width: 100%;
+        background-color: white;
+    }
+    .hosting-container-popular{
+        width: 100%;
+    }
+    .hosting-item{
+        width: 80%;
+        margin: auto auto;
+        margin-bottom: 10px;
+    }
+    .hosting-item--row{
+        margin: 5px;
+    }
+    .hosting-list-container{
+        flex-direction: column;
+    }
 }
  
 /*************activity*************/
@@ -382,7 +476,7 @@ body p, h1{
     flex-direction: column;
     justify-content: space-between;
 }
-.activity-vieux-port{
+.activity-1{
     width: 22%;
     border-radius: 25px 25px 25px 25px;
     box-shadow: -3px 3px 10px 0px  #8080804d;
@@ -393,7 +487,7 @@ body p, h1{
     object-fit: cover;
     border-radius: 25px 25px 0px 0px;
 }
-.activity-fort-de-pomegues{
+.activity-2{
     width: 100%;
     border-radius: 25px 25px 25px 25px;
     box-shadow: -3px 3px 10px 0px  #8080804d;
@@ -404,7 +498,7 @@ body p, h1{
     object-fit: cover;
     border-radius: 25px 25px 0px 0px;
 }
-.activity-îles-de-frioul{
+.activity-3{
     width: 100%;
     border-radius: 25px 25px 25px 25px;
     box-shadow: -3px 3px 10px 0px  #8080804d;
@@ -415,7 +509,7 @@ body p, h1{
     object-fit: cover;
     border-radius: 25px 25px 0px 0px;
 }
-.activity-parc-national-de-la-calanques{
+.activity-4{
     width: 22%;
     border-radius: 25px 25px 25px 25px;
     box-shadow: -3px 3px 10px 0px  #8080804d;
@@ -426,7 +520,7 @@ body p, h1{
     object-fit: cover;
     border-radius: 25px 25px 0px 0px;
 }
-.activity-notre-dame-de-la-garde{
+.activity-5{
     width: 100%;
     border-radius: 25px 25px 25px 25px;
     box-shadow: -3px 3px 10px 0px  #8080804d;
@@ -437,7 +531,7 @@ body p, h1{
     object-fit: cover;
     border-radius: 25px 25px 0px 0px;
 }
-.activity-parc-longchamp{
+.activity-6{
     width: 100%;
     border-radius: 25px 25px 25px 25px;
     box-shadow: -3px 3px 10px 0px  #8080804d;
@@ -451,10 +545,72 @@ body p, h1{
 .activity-text{
     margin-left: 20px;
 }
-
-/********************footer********************/
-.footer
+@media only screen and (max-width: 600px) 
 {
+    .container-activity{
+        display: flex;
+        flex-direction: column;  
+     }
+    .container-activity a{
+        width: 70%;
+    }
+    .activity h1 {
+        margin-left: 40px;
+    }
+    .container-activity--column{
+        width: 100%;
+    }
+    .activity-1{
+        width: 80%;
+        margin: auto auto;
+        margin-bottom: 20px;
+    }
+    .vieux_port_picture{
+        height: 100px;
+    }
+    .activity-2{
+        width: 80%;
+        margin: auto auto;
+        margin-bottom: 20px;
+    }
+    .fort-de-pomegues-picture{
+        height: 100px;
+    }
+    .activity-3{
+        width: 80%;
+        margin: auto auto;
+        margin-bottom: 20px;
+    }
+    .îles-de-frioul-picture{
+        height: 100px;
+    }
+    .activity-4{
+        width: 80%;
+        margin: auto auto;
+        margin-bottom: 20px;
+    }
+    .parc-national-de-la-calanques-picture{
+        height: 100px;
+    }
+    .activity-5{
+        width: 80%;
+        margin: auto auto;
+        margin-bottom: 20px;
+    }
+    .notre-dame-de-la-garde-picture{
+        height: 100px;
+    }
+    .activity-6{
+        width: 80%;
+        margin: auto auto;
+        margin-bottom: 20px;
+    }
+    .parc-longchamp-picture{
+        height: 100px;
+    }
+}
+/********************footer********************/
+.footer{
     display: flex;
     background-color: #F2F2F2;
     margin-top: 60px;
@@ -467,9 +623,13 @@ body p, h1{
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-}
-.footer-item-container{
     margin-top: 20px;
+}
+.footer-item-container h2{
+    font-size: medium;
+}
+.footer-item-container li{
+    font-size: small;
 }
 .footer-list-container{
     padding-left: 0;
@@ -479,14 +639,18 @@ body p, h1{
 .footer-list-item{
     height: 30px;
 }
-.footer-list-item a {
+.footer-list-item a{
     color: #666;
     text-decoration: none;
 }
-.footer-list-item a:hover {
+.footer-list-item a:hover{
     text-decoration: underline;
 }
 @media screen and (max-width: 600px) 
 {
-    
+    .footer{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    }
 }
