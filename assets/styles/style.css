@@ -67,11 +67,25 @@ body p, h1{
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-end;
     }
     #header-nav__logo{
         width: 100%;
         position: absolute;
+    }
+    .subscrip-link {
+        display: flex;
+        align-self: start;
+        margin-top: 15px;
+        flex-grow: 1;
+    }
+    .hosting-link {
+        display: flex;
+        flex-grow: 5;
+    }
+    .activity-link{
+        display: flex;
+        flex-grow: 5;
     }
 }
 /****************main_title****************/
