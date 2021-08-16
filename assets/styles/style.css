@@ -301,7 +301,7 @@ h1 {
     margin-left: 24px;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .filter-container__top {
     width: 80%;
   }
