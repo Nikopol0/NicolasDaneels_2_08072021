@@ -294,7 +294,7 @@ h1 {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    width: 90%;
+    width: 75%;
     height: 150px;
   }
   .filter-container__title {
@@ -303,7 +303,7 @@ h1 {
 }
 @media only screen and (max-width: 700px) {
   .filter-container__top {
-    width: 80%;
+    width: 100%;
   }
 }
 /********************information********************/
