@@ -204,7 +204,7 @@ h1 {
 
 .filter-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   width: 95%;
   margin-top: 20px;
@@ -261,8 +261,15 @@ h1 {
 }
 @media only screen and (max-width: 1080px) {
   .filter-container__filter {
+    margin-left: 20px;
     display: flex;
-    align-content: space-around;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    width: 75%;
+    height: 150px;
   }
   .filter-container__top {
     display: flex;
