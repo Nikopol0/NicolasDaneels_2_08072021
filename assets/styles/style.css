@@ -292,7 +292,7 @@ h1 {
   .filter-container__filter {
     margin-left: 20px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: flex-start;
     flex-wrap: wrap;
     justify-content: space-between;
