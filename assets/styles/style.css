@@ -216,7 +216,7 @@ h1 {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  width: 65%;
+  width: 60%;
 }
 .filter-container__title {
   border: none;
@@ -258,7 +258,7 @@ h1 {
   border: none;
   background-color: white;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
   .filter-container__filter {
     margin-left: 20px;
     display: flex;
