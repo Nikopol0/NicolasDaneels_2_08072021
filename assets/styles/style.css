@@ -1,21 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 body {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
+  max-width: 94vw;
+  margin: auto;
 }
-body p,
-h1 ,h2 ,h3{
+body p, h1 ,h2 ,h3{
   color: black;
   font-family: "Raleway", Arial, Helvetica, sans-serif;
-}
-@media only screen and (max-width: 1080px) {
-    body {
-    max-width: 94vw;
-    }
-}
-@media only screen and (max-width: 600px) {
-    body {
-    max-width: 93vw;
-    }
 }
 /*header*/
 .header {
