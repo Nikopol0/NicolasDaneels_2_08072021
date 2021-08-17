@@ -5,8 +5,9 @@ body {
   max-width: 94vw;
 }
 body p,
-h1 {
+h1 ,h2 ,h3{
   color: black;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
 /****************header****************/
 .header {
@@ -180,9 +181,6 @@ h1 {
   background-color: #0065fc;
   width: auto;
 }
-.research-box__button-research p {
-  color: white;
-}
 .fa-search:before {
   content: "\f002";
   display: none;
@@ -195,8 +193,9 @@ h1 {
     content: "\f002";
     display: initial;
   }
-  .research-box__button-research p {
+  .search {
     display: none;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
   }
 }
 /****************filter****************/
@@ -244,8 +243,8 @@ h1 {
   background-color: #deebff;
   color: #0065fc;
 }
-.filter p {
-  margin: 0px 10px 0px 10px;
+.filter__list {
+    padding: 0px 9px;
 }
 .filter__icon--family {
   padding: 9px 11px 9px 11px;
@@ -258,29 +257,7 @@ h1 {
   border: none;
   background-color: white;
 }
-@media only screen and (max-width: 1000px) {
-  .filter-container__filter {
-    margin-left: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: flex-start;
-    width: 75%;
-    height: 150px;
-  }
-  .filter-container__top {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 42%;
-  }
-  .filter-container__filter {
-    width: 68%;
-  }
-}
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
   .filter-container {
     display: flex;
     flex-direction: column;
@@ -308,11 +285,6 @@ h1 {
   }
   .filter-container__title {
     margin-left: 24px;
-  }
-}
-@media only screen and (max-width: 700px) {
-  .filter-container__top {
-    width: 100%;
   }
 }
 /********************information********************/
@@ -363,7 +335,6 @@ h1 {
   width: 95%;
 }
 /*hosting marseille*/
-
 .hosting-marseille-container {
   display: flex;
   flex-direction: column;
@@ -558,9 +529,7 @@ h1 {
 /*************activity*************/
 .activity {
   width: 95%;
-  margin-top: 40px;
-  margin-right: 0;
-  margin: auto auto;
+  margin-top: 30px;
 }
 .activity p {
   font-weight: bold;
