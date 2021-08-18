@@ -269,7 +269,7 @@ body p, h1 ,h2 ,h3 ,li{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 57%;
+    width: 100%;
   }
   .filter-container__filter {
     margin-left: 20px;
@@ -285,6 +285,11 @@ body p, h1 ,h2 ,h3 ,li{
   .filter-container__title {
     margin-left: 24px;
   }
+}
+@media screen and (device-width: 768px) and (device-height: 1024px){
+    .filter-container {
+        height: 100px;
+    }
 }
 /*information*/
 .info {
