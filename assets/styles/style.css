@@ -341,11 +341,12 @@ body p, h1 ,h2 ,h3 ,li{
   background-color: #f2f2f2;
   width: 65%;
 }
-#hosting-marseille-container__title {
+#hosting__title{
   font-size: large;
   font-weight: bold;
   margin-right: auto;
   margin-left: 37px;
+  margin-top: 30px;
 }
 .hosting-list-container {
   display: flex;
@@ -424,6 +425,8 @@ body p, h1 ,h2 ,h3 ,li{
 .hosting-container-popular__title {
   display: flex;
   justify-content: space-around;
+  font-size: large;
+  margin-top: 30px;
 }
 .hosting-list-popular-container {
   display: flex;
@@ -528,6 +531,9 @@ body p, h1 ,h2 ,h3 ,li{
 .activity {
   width: 95%;
   margin-top: 30px;
+}
+#activity__title{
+    font-size: large;
 }
 .activity p {
   font-weight: bold;
