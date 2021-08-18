@@ -4,7 +4,7 @@ body {
   max-width: 94vw;
   margin: auto;
 }
-body p, h1 ,h2 ,h3{
+body p, h1 ,h2 ,h3 ,li{
   color: black;
   font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
@@ -169,6 +169,7 @@ body p, h1 ,h2 ,h3{
 .research-box__search {
   border: none;
   border: #f2f2f2 1px solid;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
 .research-box__button-research {
   color: white;
@@ -182,6 +183,9 @@ body p, h1 ,h2 ,h3{
   content: "\f002";
   display: none;
 }
+.search {
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+  }
 @media only screen and (max-width: 600px) {
   .research-box {
     margin-left: 20px;
@@ -192,7 +196,6 @@ body p, h1 ,h2 ,h3{
   }
   .search {
     display: none;
-    font-family: "Raleway", Arial, Helvetica, sans-serif;
   }
 }
 /*filter*/
@@ -242,6 +245,7 @@ body p, h1 ,h2 ,h3{
 }
 .filter__list {
     padding: 0px 9px;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
 .filter__icon--family {
   padding: 9px 11px 9px 11px;
