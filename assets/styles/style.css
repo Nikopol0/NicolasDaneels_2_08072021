@@ -41,7 +41,6 @@ body p, h1 ,h2 ,h3 ,li{
   align-items: center;
 }
 #header-nav__logo {
-  width: 60%;
   display: flex;
   align-items: center;
 }
@@ -83,7 +82,6 @@ body p, h1 ,h2 ,h3 ,li{
     align-items: flex-end;
   }
   #header-nav__logo {
-    width: 100%;
     position: absolute;
   }
   .subscrip-link__list {
