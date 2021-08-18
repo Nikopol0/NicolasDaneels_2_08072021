@@ -2,6 +2,7 @@
 body {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   max-width: 94vw;
+  overflow-x: hidden;
 }
 body p, h1 ,h2 ,h3 ,li{
   color: black;
