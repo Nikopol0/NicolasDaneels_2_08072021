@@ -4,7 +4,11 @@ body {
   max-width: 94vw;
   overflow-x: hidden;
 }
-body p, h1 ,h2 ,h3 ,li{
+body p,
+h1,
+h2,
+h3,
+li {
   color: black;
   font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
@@ -182,8 +186,8 @@ body p, h1 ,h2 ,h3 ,li{
   display: none;
 }
 .search {
-    font-family: "Raleway", Arial, Helvetica, sans-serif;
-  }
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
 @media only screen and (max-width: 600px) {
   .research-box {
     margin-left: 20px;
@@ -242,8 +246,8 @@ body p, h1 ,h2 ,h3 ,li{
   color: #0065fc;
 }
 .filter__list {
-    padding: 0px 9px;
-    font-family: "Raleway", Arial, Helvetica, sans-serif;
+  padding: 0px 9px;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
 .filter__icon--family {
   padding: 9px 11px 9px 11px;
@@ -286,10 +290,10 @@ body p, h1 ,h2 ,h3 ,li{
     margin-left: 24px;
   }
 }
-@media screen and (device-width: 768px) and (device-height: 1024px){
-    .filter-container {
-        height: 120px;
-    }
+@media screen and (device-width: 768px) and (device-height: 1024px) {
+  .filter-container {
+    height: 120px;
+  }
 }
 /*information*/
 .info {
@@ -344,7 +348,7 @@ body p, h1 ,h2 ,h3 ,li{
   background-color: #f2f2f2;
   width: 65%;
 }
-#hosting__title{
+#hosting__title {
   font-size: large;
   font-weight: bold;
   margin-right: auto;
@@ -535,8 +539,8 @@ body p, h1 ,h2 ,h3 ,li{
   width: 95%;
   margin-top: 30px;
 }
-#activity__title{
-    font-size: large;
+#activity__title {
+  font-size: large;
 }
 .activity p {
   font-weight: bold;
