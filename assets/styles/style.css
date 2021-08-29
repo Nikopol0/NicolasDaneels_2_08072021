@@ -8,7 +8,8 @@ body p,
 h1,
 h2,
 h3,
-li {
+li,
+ {
   color: black;
   font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
@@ -392,6 +393,7 @@ li {
   margin-bottom: 0;
   margin-top: 10px;
   padding-left: 10px;
+  color: black;
 }
 .hosting-item__price {
   font-size: small;
@@ -399,6 +401,7 @@ li {
   margin-top: 5px;
   margin-bottom: 5px;
   padding-left: 10px;
+  color: black;
 }
 .hosting-item__stars {
   display: flex;
@@ -415,10 +418,21 @@ li {
 .fa-star {
   color: #999;
 }
-.p_hosting {
-  margin-top: 40px;
-  margin-left: 20px;
+.button__hosting {
+  cursor: pointer;
+  width: 20%;
+  margin-top: auto;
+  margin-bottom: auto;
+  border: transparent;
+}
+.button__hosting-show-more{
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-size: large;
   font-weight: bold;
+  width: auto;
+}
+.button__hosting :hover{ 
+  color: #0065fc;
 }
 /*popular_hosting*/
 .hosting-container-popular {
@@ -482,6 +496,7 @@ li {
   margin-top: 5px;
   margin-bottom: 0;
   padding-left: 10px;
+  color: black;
 }
 .hosting-item__price--row {
   font-size: small;
@@ -489,6 +504,7 @@ li {
   margin-top: 0;
   padding-left: 10px;
   margin-top: 8px;
+  color: black;
 }
 .hosting-item__stars--row {
   width: 25%;
