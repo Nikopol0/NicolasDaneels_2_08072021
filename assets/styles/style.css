@@ -535,6 +535,11 @@ li {
   padding-left: 10px;
   margin-bottom: 10px;
 }
+@media only screen and (max-width: 667px) {
+  .button__hosting {
+    margin-left: 3px;
+}
+}
 @media only screen and (max-width: 600px) {
   .main {
     margin: auto auto;
