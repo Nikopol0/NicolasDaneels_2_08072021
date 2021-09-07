@@ -438,7 +438,7 @@ li {
 }
 .button__hosting {
   cursor: pointer;
-  width: 35%;
+  width: 40%;
   margin-top: auto;
   margin-bottom: auto;
   border: transparent;
@@ -583,11 +583,11 @@ li {
   }
   .button__hosting {
     background-color: white;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-top: 20px;
   }
   #activity__title {
-    margin-left: 30px;
+    margin-left: 23px;
     margin-bottom: 25px;
 }
 }
