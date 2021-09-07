@@ -20,14 +20,14 @@ li {
   width: 100%;
 }
 /*nav-bar*/
-nav {
+.header-nav {
   width: 95%;
   height: 100px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.nav a {
+.header-nav a {
   text-decoration: none;
 }
 .header-nav-list a:hover {
@@ -43,9 +43,6 @@ nav {
   list-style-type: none;
   justify-content: space-between;
   align-items: center;
-}
-#header-nav__logo {
- 
 }
 .logo{
   margin-top: 20px;
@@ -76,7 +73,7 @@ nav {
   }
 }
 @media only screen and (max-width: 600px) {
-  nav {
+  .header-nav {
     width: 95%;
     height: 115px;
     display: flex;
