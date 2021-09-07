@@ -45,8 +45,11 @@ li {
   align-items: center;
 }
 #header-nav__logo {
-  display: flex;
-  align-items: center;
+ 
+}
+.logo{
+  margin-top: 20px;
+  position: absolute;
 }
 .hosting-link__list a {
   color: #0065fc;
@@ -91,7 +94,7 @@ li {
   .subscrip-link__list {
     display: flex;
     align-self: start;
-    margin-top: 15px;
+    margin-top: 35px;
     position: absolute;
     margin-left: 75%;
   }
