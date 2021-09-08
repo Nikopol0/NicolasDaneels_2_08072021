@@ -257,7 +257,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: solid #f2f2f2 1px;
+  border: solid #f2f2f2 2px;
   border-radius: 25px;
   background-color: white;
   padding: 0;
@@ -289,6 +289,9 @@ li {
   background-color: white;
 }
 @media only screen and (max-width: 500px) {
+  .filter{
+    height: 41px;
+  }
   .filter-container {
     display: flex;
     flex-direction: column;
@@ -303,6 +306,12 @@ li {
     justify-content: space-between;
     width: 100%;
   }
+  .filter__icon {
+    padding: 12px;
+}
+.filter__icon--family {
+  padding: 12px 14px 12px 14px;
+}
   .filter-container__filter {
     margin-left: 20px;
     display: flex;
