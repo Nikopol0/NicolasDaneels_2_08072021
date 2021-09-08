@@ -220,10 +220,12 @@ li {
   }
   .research-box__icon-location-dot {
     padding: 11px 15px 10px 15px;
+    height: 22px;
   }
   .research-box__button-research {
     border-radius: 15px 15px 15px 15px;
     width: 20%;
+    height: 44px;
   }
 }
 /*filter*/
