@@ -3,6 +3,7 @@ body {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   max-width: 94vw;
   overflow-x: hidden;
+  margin: 0;
 }
 body p,
 h1,
@@ -18,6 +19,11 @@ li {
   flex-direction: column;
   align-items: center;
   width: 100%;
+}
+.nav{
+  width: 100%;
+    display: flex;
+    justify-content: flex-end;
 }
 /*nav-bar*/
 .header-nav {
@@ -44,7 +50,7 @@ li {
   justify-content: space-between;
   align-items: center;
 }
-.logo{
+.logo {
   margin-top: 20px;
   position: absolute;
 }
@@ -198,11 +204,11 @@ li {
   }
   .main-title__h1 {
     width: 283px;
-}
-.research-box__search{
-  width: 200px;
-  border-style: none;
-}
+  }
+  .research-box__search {
+    width: 200px;
+    border-style: none;
+  }
   .fa-search:before {
     content: "\f002";
     display: initial;
@@ -217,7 +223,7 @@ li {
   .research-box__button-research {
     border-radius: 10px 10px 10px 10px;
     width: 45px;
-}
+  }
 }
 /*filter*/
 .filter-container {
@@ -535,10 +541,10 @@ li {
   padding-left: 10px;
   margin-bottom: 10px;
 }
-@media only screen and (max-width: 667px) {
+@media only screen and (min-width: 601px) and (max-width: 740px) {
   .button__hosting {
     margin-left: 3px;
-}
+  }
 }
 @media only screen and (max-width: 600px) {
   .main {
@@ -550,7 +556,7 @@ li {
     justify-content: space-between;
     width: 95%;
   }
-  #hosting__title{
+  #hosting__title {
     margin-left: 25px;
   }
   .p_hosting {
@@ -561,41 +567,37 @@ li {
     width: 100%;
     background-color: white;
   }
-  .hosting-list-popular-container{
+  .hosting-list-popular-container {
     padding-bottom: 20px;
   }
   .hosting-container-popular {
-    width: 85%;
+    width: 93%;
     margin: auto;
     border-radius: 0;
     padding: 0px 15px;
-}
-.hosting-container-popular__title {
-  display: flex;
-  justify-content: space-between;
-}
+  }
+  .hosting-container-popular__title {
+    display: flex;
+    justify-content: space-between;
+  }
   .hosting-item {
-    width: 85%;
+    width: 88%;
     margin: auto auto;
     margin-bottom: 10px;
   }
   .hosting-item--row {
     margin: 5px;
-    width:100%;
+    width: 100%;
   }
   .hosting-list-container {
     flex-direction: column;
   }
   .button__hosting {
     background-color: white;
-    margin-left: 10px;
+    margin-left: 2px;
     margin-top: 20px;
     width: 40%;
   }
-  #activity__title {
-    margin-left: 23px;
-    margin-bottom: 25px;
-}
 }
 /*activity*/
 .activity {
@@ -693,6 +695,10 @@ li {
   margin-left: 20px;
 }
 @media only screen and (max-width: 600px) {
+  #activity__title {
+    margin-left: 16px;
+    margin-bottom: 25px;
+  }
   .container-activity {
     display: flex;
     flex-direction: column;
@@ -707,7 +713,7 @@ li {
     width: 100%;
   }
   .activity-1 {
-    width: 85%;
+    width: 90%;
     margin: auto auto;
     margin-bottom: 20px;
   }
@@ -715,7 +721,7 @@ li {
     height: 100px;
   }
   .activity-2 {
-    width: 85%;
+    width: 90%;
     margin: auto auto;
     margin-bottom: 20px;
   }
@@ -723,7 +729,7 @@ li {
     height: 100px;
   }
   .activity-3 {
-    width: 85%;
+    width: 90%;
     margin: auto auto;
     margin-bottom: 20px;
   }
@@ -731,7 +737,7 @@ li {
     height: 100px;
   }
   .activity-4 {
-    width: 85%;
+    width: 90%;
     margin: auto auto;
     margin-bottom: 20px;
   }
@@ -739,7 +745,7 @@ li {
     height: 100px;
   }
   .activity-5 {
-    width: 85%;
+    width: 90%;
     margin: auto auto;
     margin-bottom: 20px;
   }
@@ -747,7 +753,7 @@ li {
     height: 100px;
   }
   .activity-6 {
-    width: 85%;
+    width: 90%;
     margin: auto auto;
     margin-bottom: 20px;
   }
